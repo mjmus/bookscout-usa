@@ -870,5 +870,53 @@
     "state": "US",
     "category": "national",
     "url": "https://news.google.com/rss/search?q=%22textbook+lot%22+surplus+auction+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "institution-deaccession",
+    "name": "USA library deaccession / withdrawn collections",
+    "state": "US",
+    "category": "national",
+    "group": "institutional",
+    "url": "https://news.google.com/rss/search?q=(%22deaccession%22%20books%20auction%20OR%20%22withdrawn%20library%20books%22%20sale)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "institution-weeded",
+    "name": "USA weeded collections and materials",
+    "state": "US",
+    "category": "national",
+    "group": "institutional",
+    "url": "https://news.google.com/rss/search?q=(%22weeded%20library%22%20books%20OR%20%22weeded%20collection%22%20sale)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "institution-curriculum",
+    "name": "USA obsolete school curriculum and textbooks",
+    "state": "US",
+    "category": "national",
+    "group": "institutional",
+    "url": "https://news.google.com/rss/search?q=(%22obsolete%20curriculum%22%20auction%20OR%20%22surplus%20textbooks%22%20school)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "institution-contents",
+    "name": "USA library contents and cleanouts",
+    "state": "US",
+    "category": "national",
+    "group": "institutional",
+    "url": "https://news.google.com/rss/search?q=(%22library%20contents%22%20auction%20OR%20%22institutional%20cleanout%22%20books)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "institution-boxed",
+    "name": "USA boxed books and media surplus",
+    "state": "US",
+    "category": "national",
+    "group": "institutional",
+    "url": "https://news.google.com/rss/search?q=(%22boxed%20books%22%20surplus%20auction%20OR%20%22boxed%20media%22%20liquidation)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "institution-lot",
+    "name": "USA institutional book liquidation",
+    "state": "US",
+    "category": "national",
+    "group": "institutional",
+    "url": "https://news.google.com/rss/search?q=(%22university%20books%22%20surplus%20OR%20%22school%20book%20collection%22%20auction)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
   }
 ]

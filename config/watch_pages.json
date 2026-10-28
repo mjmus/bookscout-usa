@@ -292,5 +292,47 @@
     "name": "LiveAuctioneers book category",
     "state": "US",
     "url": "https://www.liveauctioneers.com/c/books/"
+  },
+  {
+    "id": "radford-surplus",
+    "name": "Radford University Surplus",
+    "state": "VA",
+    "url": "https://www.radford.edu/facilities-maintenance/surplus/surplus-procedure.html"
+  },
+  {
+    "id": "goochland-schools",
+    "name": "Goochland County Public Schools Surplus",
+    "state": "VA",
+    "url": "https://www.goochlandschools.org/page/surplus"
+  },
+  {
+    "id": "fairfax-schools",
+    "name": "Fairfax County Public Schools Surplus",
+    "state": "VA",
+    "url": "https://www.fcps.edu/get-involved/procurement-services/public-auction-and-surplus"
+  },
+  {
+    "id": "greene-schools",
+    "name": "Greene County Public Schools Surplus",
+    "state": "VA",
+    "url": "https://www.greenecountyschools.com/departments/facilities/public-auction-and-surplus"
+  },
+  {
+    "id": "newport-schools",
+    "name": "Newport News Public Schools Auctions",
+    "state": "VA",
+    "url": "https://m.publicsurplus.com/sms/nn%2Cva/browse/home"
+  },
+  {
+    "id": "booksavers",
+    "name": "Booksavers of Virginia",
+    "state": "VA",
+    "url": "https://giftandthrift.org/booksavers-of-virginia/"
+  },
+  {
+    "id": "wv-surplus",
+    "name": "West Virginia State Surplus",
+    "state": "WV",
+    "url": "https://www.state.wv.us/admin/purchase/Surplus/SurplusPropertyFAQs.html"
   }
 ]

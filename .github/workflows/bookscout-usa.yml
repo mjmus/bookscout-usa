@@ -1,0 +1,47 @@
+name: BookScout USA hourly refresh
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: bookscout-usa-publish
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate discovery logic
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Refresh nationwide and institutional sources
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ALERT_STATES: ${{ vars.ALERT_STATES }}
+        run: python scripts/national_update.py
+      - name: Save report
+        run: |
+          git config user.name 'bookscout-radar[bot]'
+          git config user.email 'bookscout-radar@users.noreply.github.com'
+          git add web/data/live.json web/data/live-data.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh book sourcing radar'
+            git push
+          fi
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: web
+      - name: Publish site
+        uses: actions/deploy-pages@v4

@@ -35,7 +35,8 @@ jobs:
           git add web/data/live.json web/data/live-data.js
           if ! git diff --cached --quiet; then
             git commit -m 'chore: refresh book sourcing radar'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - name: Setup Pages
         uses: actions/configure-pages@v5

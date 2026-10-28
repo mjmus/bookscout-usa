@@ -30,6 +30,16 @@ class GaylordTests(unittest.TestCase):
         for row in old:
             self.assertEqual(row['repeat'],'past')
             self.assertTrue(row['end']<'2026-10-28')
+    def test_wholesale_gaylord_link_is_discoverable(self):
+        import sys
+        sys.path.insert(0,str(ROOT/'scripts'))
+        import national_update as n
+        page={'id':'bulk-shop','name':'Book supplier','url':'https://example.org/pallets','state':'US'}
+        raw=b'<a href="/products/unsorted-books">Unsorted Wholesale Used Book Pallet</a>'
+        leads=n.parse_official_links(raw,page,'2026-10-28T20:00:00Z')
+        self.assertEqual(len(leads),1)
+        self.assertEqual(leads[0]['url'],'https://example.org/products/unsorted-books')
+
     def test_no_automatic_rank_or_guaranteed_profit(self):
         for row in self.rows:
             self.assertFalse(row['isbn_manifest'])

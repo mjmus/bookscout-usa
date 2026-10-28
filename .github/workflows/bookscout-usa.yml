@@ -38,13 +38,3 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: web
-      - name: Publish site
-        uses: actions/deploy-pages@v4

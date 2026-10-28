@@ -188,7 +188,7 @@ def finish_report(previous,selected,results,when,seed=SEED):
                     events[ev['id']]=ev
     today=when[:10]
     cutoff=(datetime.fromisoformat(when.replace('Z','+00:00'))-timedelta(days=60)).date().isoformat()
-    items={k:v for k,v in items.items() if v.get('last_seen','')[:10]>=cutoff}
+    items={k:v for k,v in items.items() if v.get('last_seen','')[:10]>=cutoff and not (v.get('origin')=='official monitored page link' and (OLD_YEAR.search(urlparse(v.get('url','')).path) or OLD_YEAR.search(v.get('title',''))))}
     events={k:v for k,v in events.items() if v.get('end','')>=today}
     alerts_sent=set(previous.get('alerts_sent',[]))
     alerts=[]

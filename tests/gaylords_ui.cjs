@@ -1,0 +1,32 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const root=process.cwd();
+const context={window:{},console,Intl,Number,String,Set,Array,Date};
+vm.createContext(context);
+for(const file of ['web/data/gaylord-sources.js','web/gaylords.js']){
+ vm.runInContext(fs.readFileSync(root+'/'+file,'utf8'),context,{filename:file});
+}
+const app=context.window.BookScoutGaylords;
+assert.ok(app,'Gaylord module should load');
+assert.ok(app.sources.length>=12,'Expected sourced bulk channels');
+const data={notes:{},watch:{}};
+const h=app.page({data,LIVE:{checks:[],leads:[],events:[]}});
+assert.match(h,/Gaylords & raw-book leads/);
+assert.match(h,/Landed-cost & resale reality check/);
+assert.match(h,/BulkDiscs/);
+assert.match(h,/BookDrop/);
+assert.match(h,/upstream/i);
+assert.match(h,/seller.*unscanned/i);
+assert.ok(h.includes('data-gay-watch'));
+assert.ok(h.includes('data-gay-calc'));
+data.gayPrefs.scan='seller_claim_unscanned';
+const filtered=app.page({data,LIVE:{checks:[]}});
+assert.ok(filtered.includes('BulkDiscs'));
+assert.ok(!filtered.includes('BookDrop · Mixed\/unsorted wholesale gaylords'));
+data.gayPrefs.scan='all';
+data.gayPrefs.type='historical';
+const historical=app.page({data,LIVE:{checks:[]}});
+assert.ok(historical.includes('Radford University'));
+assert.ok(!historical.includes('Zubal Books'));
+console.log('Gaylord tab module smoke tests passed');

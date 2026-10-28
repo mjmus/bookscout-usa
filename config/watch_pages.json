@@ -406,5 +406,47 @@
     "name": "Friends of Beaches Branch used book sales",
     "state": "FL",
     "url": "https://fobbljax.org/2026/09/25/find-your-next-great-read-at-the-beaches-branch-library-fall-2026-book-sale/"
+  },
+  {
+    "id": "gay-bulkdiscs-raw",
+    "name": "BulkDiscs unsorted book gaylord offer",
+    "state": "US",
+    "url": "https://bulkdiscs.com/collections/book-pallets/products/unsorted-wholesale-used-book-pallet"
+  },
+  {
+    "id": "gay-ctmedia",
+    "name": "C&T Media Discs raw unscanned mixed media gaylords",
+    "state": "PA",
+    "url": "https://www.ctmediadiscs.com/"
+  },
+  {
+    "id": "gay-bankvogue",
+    "name": "Bank & Vogue non-scanned wholesale books",
+    "state": "US",
+    "url": "https://www.bankvogue.com/our-products/used-books/"
+  },
+  {
+    "id": "gay-thriftbooks",
+    "name": "ThriftBooks bulk gaylord FAQ",
+    "state": "US",
+    "url": "https://www.thriftbooks.com/s/wholesale-faq/"
+  },
+  {
+    "id": "gay-zubal",
+    "name": "Zubal bulk book gaylord program",
+    "state": "OH",
+    "url": "https://www.zubalbooks.com/buy-bulk-books.jsp"
+  },
+  {
+    "id": "gay-paperindex",
+    "name": "Thriftbooks Global raw book listing on PaperIndex",
+    "state": "US",
+    "url": "https://www.paperindex.com/product-details/mixed-waste-paper-raw-books/74334"
+  },
+  {
+    "id": "gay-bookboys",
+    "name": "Book Boys Virginia institutional bulk book intake",
+    "state": "VA",
+    "url": "https://bookboys.org/bulk-removal"
   }
 ]

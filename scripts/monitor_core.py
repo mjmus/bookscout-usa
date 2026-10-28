@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 UA = 'BookScoutSourceMonitor/1.0 (book sourcing, respectful public-source checks; contact via repo)' 
 TIMEOUT = 16
 MAX_BYTES = 1_500_000
-POSITIVE = re.compile(r'\b(?:book\s+sale|used\s+book\s+sale|library\s+sale|book\s+lot|lot\s+of\s+books|bulk\s+books?|books?\s+auction|books?\s+pallets?|gaylord(?:s)?\s+of\s+books|book\s+liquidation|friends\s+of\s+the\s+library|textbook\s+sale|library\s+surplus)\b', re.I)
+POSITIVE = re.compile(r'\b(?:book\s+sale|used\s+book\s+sale|library\s+sale|book\s+lot|lot\s+of\s+books|bulk\s+books?|books?\s+auction|books?\s+pallets?|gaylord(?:s)?\s+of\s+books|book\s+liquidation|friends\s+of\s+the\s+library|textbook\s+sale|library\s+surplus|deaccession(?:ed|ing)?\s+(?:books?|library|collection)|(?:withdrawn|weeded|discarded)\s+(?:library\s+)?(?:books?|materials?|collections?)|obsolete\s+(?:textbooks?|curriculum|school\s+books?)|library\s+(?:contents|collection\s+(?:sale|liquidation))|institutional\s+cleanout|boxed\s+(?:books|media)|(?:school|university|library|college)\s+(?:surplus|liquidation|auction)|surplus\s+(?:textbooks?|books?))\b', re.I)
 EXCLUDE = re.compile(r'\b(?:book\s+review|book\s+signing|cookbook\s+recipe|book\s+club|book\s+ban|book\s+tour)\b', re.I)
 ROBOTS_CACHE = {}
 

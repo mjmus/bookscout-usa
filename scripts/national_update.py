@@ -92,7 +92,8 @@ LINK_TOPIC = re.compile(
     r'(?:school|university|government|public)\s+surplus|'
     r'surplus\s+(?:sales?|auctions?|books?)|'
     r'(?:deaccessioned|withdrawn|weeded|obsolete)\s+(?:books?|collections?|materials?|curriculum)|'
-    r'gaylords?|pallets?\s+of\s+books?)\b',re.I)
+    r'gaylords?|pallets?\s+of\s+books?|book\s*(?:pallets?|gaylords?|truckloads?)|'
+    r'wholesale\s+(?:used\s+)?books?|(?:unsorted|unscanned|raw)\s+(?:used\s+)?books?)\b',re.I)
 BAD_LINK = re.compile(r'\.(?:jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|woff|ico)(?:$|[?#])', re.I)
 OLD_YEAR = re.compile(r'\b(?:201[0-9]|202[0-5])\b')
 

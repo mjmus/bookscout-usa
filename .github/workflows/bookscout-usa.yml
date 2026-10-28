@@ -36,6 +36,7 @@ jobs:
           node --check web/app.js
           node --check web/gaylords.js
           node --check web/data/gaylord-sources.js
+          node tests/gaylords_ui.cjs
       - name: Refresh nationwide leads and safely save updated report
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

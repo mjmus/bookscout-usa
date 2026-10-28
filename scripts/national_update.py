@@ -132,7 +132,7 @@ def parse_official_links(raw, source, when):
         if parsed.scheme!='https' or parsed.hostname!=host or BAD_LINK.search(target):continue
         name=(item['text'] or item['title']).strip()
         # No generic unlabeled navigation; no links explicitly advertising past years.
-        if not name or len(name)<6 or OLD_YEAR.search(name):continue
+        if not name or len(name)<6 or OLD_YEAR.search(name) or OLD_YEAR.search(parsed.path):continue
         if not LINK_TOPIC.search(name+' '+parsed.path.replace('-',' ')):continue
         target=target.rstrip('/')
         if target.rstrip('/')==source['url'].rstrip('/'):continue

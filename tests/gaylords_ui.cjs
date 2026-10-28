@@ -13,7 +13,7 @@ assert.ok(app.sources.length>=12,'Expected sourced bulk channels');
 const data={notes:{},watch:{}};
 const h=app.page({data,LIVE:{checks:[],leads:[],events:[]}});
 assert.match(h,/Gaylords & raw-book leads/);
-assert.match(h,/Landed-cost & resale reality check/);
+assert.match(h,/Delivered-cost & resale reality check/);
 assert.match(h,/BulkDiscs/);
 assert.match(h,/BookDrop/);
 assert.match(h,/upstream/i);

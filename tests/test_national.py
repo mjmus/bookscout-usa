@@ -5,7 +5,7 @@ import national_update as n
 class NationalTests(unittest.TestCase):
  def test_coverage(self):
   feeds=json.loads((ROOT/'config/feeds.json').read_text())
-  self.assertEqual(len(feeds),110)
+  self.assertEqual(len(feeds),116)
   states={x['state'] for x in feeds if x['state']!='US'}
   self.assertEqual(len(states),51)
   self.assertTrue(all(sum(f['state']==st for f in feeds)==2 for st in states))
@@ -14,7 +14,7 @@ class NationalTests(unittest.TestCase):
   def failure(url):raise RuntimeError('test: unavailable')
   a=n.run(fetch=failure,feeds=feeds,pages=[],previous={'run_count':0},now='2026-10-28T20:00:00Z')
   b=n.run(fetch=failure,feeds=feeds,pages=[],previous={'run_count':1},now='2026-10-28T21:00:00Z')
-  self.assertEqual(len(a['checks']),59);self.assertEqual(len(b['checks']),59)
+  self.assertEqual(len(a['checks']),65);self.assertEqual(len(b['checks']),65)
   self.assertIn('VA',{x['state'] for x in a['checks']})
   self.assertNotEqual(set(x['id'] for x in a['checks']),set(x['id'] for x in b['checks']))
   self.assertEqual(a['status'],'partial')

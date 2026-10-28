@@ -31,6 +31,11 @@ jobs:
           python-version: '3.12'
       - name: Validate discovery logic
         run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Check web app JavaScript syntax
+        run: |
+          node --check web/app.js
+          node --check web/gaylords.js
+          node --check web/data/gaylord-sources.js
       - name: Refresh nationwide leads and safely save updated report
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}

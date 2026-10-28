@@ -1,0 +1,296 @@
+[
+  {
+    "id": "richmond-friends",
+    "name": "Friends of Richmond Public Library",
+    "state": "VA",
+    "url": "https://rvalibraryfriends.org/"
+  },
+  {
+    "id": "chesterfield-friends",
+    "name": "Chesterfield Friends of the Library",
+    "state": "VA",
+    "url": "https://www.chesterfieldfriends.org/"
+  },
+  {
+    "id": "fairfax-book-sales",
+    "name": "Fairfax County Public Library book sales",
+    "state": "VA",
+    "url": "https://www.fairfaxcounty.gov/library/book-sales"
+  },
+  {
+    "id": "loudoun-book-sales",
+    "name": "Loudoun County Public Library book sales",
+    "state": "VA",
+    "url": "https://library.loudoun.gov/BookSales"
+  },
+  {
+    "id": "virginia-surplus",
+    "name": "Virginia Surplus Public Auctions",
+    "state": "VA",
+    "url": "https://dgs.virginia.gov/office-of-surplus-property-management/public/public-auctions"
+  },
+  {
+    "id": "nc-surplus",
+    "name": "NC State Surplus Property",
+    "state": "NC",
+    "url": "https://www.doa.nc.gov/divisions/state-surplus-property"
+  },
+  {
+    "id": "umd-terrapin",
+    "name": "UMD Terrapin Trader",
+    "state": "MD",
+    "url": "https://facilities.umd.edu/services/logistical-services/terrapin-trader"
+  },
+  {
+    "id": "norfolk-official",
+    "name": "Norfolk official Recycled Reads page",
+    "state": "VA",
+    "url": "https://www.norfolk.gov/m/newsflash/home/detail/10461"
+  },
+  {
+    "id": "vbpl-friends",
+    "name": "Virginia Beach Friends",
+    "state": "VA",
+    "url": "https://friendsvblibrary.org/"
+  },
+  {
+    "id": "portsmouth-friends",
+    "name": "Portsmouth Library Friends sales",
+    "state": "VA",
+    "url": "https://www.friendsofportsmouthlibrary.org/booksales"
+  },
+  {
+    "id": "newport-news",
+    "name": "Newport News Friends bookstore and sales",
+    "state": "VA",
+    "url": "https://library.nnva.gov/230/Friends-of-the-Library"
+  },
+  {
+    "id": "hampton-friends",
+    "name": "Hampton library Friends",
+    "state": "VA",
+    "url": "https://www.hampton.gov/1224/Friends-of-the-Library"
+  },
+  {
+    "id": "williamsburg",
+    "name": "Williamsburg Regional Library book nooks",
+    "state": "VA",
+    "url": "https://www.wrl.org/174/Book-Sales-Material-Donations"
+  },
+  {
+    "id": "goodwill-outlets-va",
+    "name": "Goodwill VA outlet directory",
+    "state": "VA",
+    "url": "https://goodwillvirginia.org/shop/outlets/"
+  },
+  {
+    "id": "crrl-friends",
+    "name": "Fredericksburg Friends bookstore",
+    "state": "VA",
+    "url": "https://crrlfriends.org/bookshop/"
+  },
+  {
+    "id": "jmrl",
+    "name": "Charlottesville JMRL Friends sales",
+    "state": "VA",
+    "url": "https://jmrlfriends.org/"
+  },
+  {
+    "id": "roanoke",
+    "name": "Roanoke County Library Friends",
+    "state": "VA",
+    "url": "https://roanokecountyva.gov/2576/Become-a-Friend-of-the-Library"
+  },
+  {
+    "id": "vbschools-surplus",
+    "name": "Virginia Beach school district auctions",
+    "state": "VA",
+    "url": "https://www.vbschools.com/budget/procurement/gently-used-school-items"
+  },
+  {
+    "id": "npschools-surplus",
+    "name": "Norfolk Public Schools auctions",
+    "state": "VA",
+    "url": "https://www.npsk12.com/departments/purchase-supply/surplus"
+  },
+  {
+    "id": "nc-surplus-stores",
+    "name": "NC State retail surplus including universities",
+    "state": "NC",
+    "url": "https://www.doa.nc.gov/divisions/state-surplus-property/retail-store-locations"
+  },
+  {
+    "id": "triad-outlet",
+    "name": "Triad Goodwill book outlet",
+    "state": "NC",
+    "url": "https://www.triadgoodwill.org/shop/sold-by-the-pound/"
+  },
+  {
+    "id": "ecu-surplus",
+    "name": "ECU quarterly university surplus",
+    "state": "NC",
+    "url": "https://purchasing.ecu.edu/surplus/sales/"
+  },
+  {
+    "id": "durham-friends",
+    "name": "Durham Friends bookstore",
+    "state": "NC",
+    "url": "https://fodlnc.org/"
+  },
+  {
+    "id": "charlotte-outlet",
+    "name": "Charlotte Goodwill Second Editions",
+    "state": "NC",
+    "url": "https://goodwillsp.org/location/second-editions-charlotte/"
+  },
+  {
+    "id": "lewes-friends",
+    "name": "Lewes Friends shop",
+    "state": "DE",
+    "url": "https://lewes.lib.de.us/friends/shop/"
+  },
+  {
+    "id": "delaware-auctions",
+    "name": "Delaware surplus auctions",
+    "state": "DE",
+    "url": "https://www.gss.omb.delaware.gov/surplus/auction.shtml"
+  },
+  {
+    "id": "bulkdiscs",
+    "name": "BulkDiscs book pallets",
+    "state": "US",
+    "url": "https://bulkdiscs.com/collections/books"
+  },
+  {
+    "id": "bookdrop",
+    "name": "BookDrop wholesale gaylords",
+    "state": "US",
+    "url": "https://www.bookdrop.com/services/wholesale"
+  },
+  {
+    "id": "betterworld",
+    "name": "Better World Books Wholesale pricing",
+    "state": "US",
+    "url": "https://wholesale.betterworldbooks.com/pricing/"
+  },
+  {
+    "id": "bookdepot",
+    "name": "Book Depot bargain inventory",
+    "state": "US",
+    "url": "https://www.bookdepot.com/"
+  },
+  {
+    "id": "nc-bookfinder",
+    "name": "NC BookSaleFinder event listings",
+    "state": "NC",
+    "url": "https://www.booksalefinder.com/NC.html"
+  },
+  {
+    "id": "va-bookfinder",
+    "name": "VA BookSaleFinder event listings",
+    "state": "VA",
+    "url": "https://www.booksalefinder.com/VA.html"
+  },
+  {
+    "id": "md-bookfinder",
+    "name": "MD BookSaleFinder event listings",
+    "state": "MD",
+    "url": "https://www.booksalefinder.com/MD.html"
+  },
+  {
+    "id": "de-bookfinder",
+    "name": "DE BookSaleFinder event listings",
+    "state": "DE",
+    "url": "https://www.booksalefinder.com/DE.html"
+  },
+  {
+    "id": "wv-bookfinder",
+    "name": "WV BookSaleFinder event listings",
+    "state": "WV",
+    "url": "https://www.booksalefinder.com/WV.html"
+  },
+  {
+    "id": "pa-bookfinder",
+    "name": "PA BookSaleFinder event listings",
+    "state": "PA",
+    "url": "https://www.booksalefinder.com/PA.html"
+  },
+  {
+    "id": "nj-bookfinder",
+    "name": "NJ BookSaleFinder event listings",
+    "state": "NJ",
+    "url": "https://www.booksalefinder.com/NJ.html"
+  },
+  {
+    "id": "sc-bookfinder",
+    "name": "SC BookSaleFinder event listings",
+    "state": "SC",
+    "url": "https://www.booksalefinder.com/SC.html"
+  },
+  {
+    "id": "tn-bookfinder",
+    "name": "TN BookSaleFinder event listings",
+    "state": "TN",
+    "url": "https://www.booksalefinder.com/TN.html"
+  },
+  {
+    "id": "dc-friends",
+    "name": "DC Public Library Friends event listings",
+    "state": "DC",
+    "url": "https://www.dclibrary.org/get-involved/friends-library"
+  },
+  {
+    "id": "big-annapolis",
+    "name": "Books for International Goodwill public book sales",
+    "state": "MD",
+    "url": "https://big-books.org/"
+  },
+  {
+    "id": "durham-fodl-events",
+    "name": "Durham library Friends event page",
+    "state": "NC",
+    "url": "https://fodlnc.org/events/"
+  },
+  {
+    "id": "fairfax-ongoing",
+    "name": "Fairfax ongoing branch sale locations",
+    "state": "VA",
+    "url": "https://www.fairfaxcounty.gov/library/book-sales"
+  },
+  {
+    "id": "vnsa-phoenix",
+    "name": "VNSA Phoenix book sale",
+    "state": "AZ",
+    "url": "https://vnsabooksale.org/booksale"
+  },
+  {
+    "id": "aauw-state-college",
+    "name": "AAUW State College sale",
+    "state": "PA",
+    "url": "https://aauwstatecollege.org/used-book-sale/"
+  },
+  {
+    "id": "sf-friends-events",
+    "name": "San Francisco Friends book-sale events",
+    "state": "CA",
+    "url": "https://www.friendssfpl.org/events.html"
+  },
+  {
+    "id": "seattle-friends-events",
+    "name": "Friends of Seattle library events",
+    "state": "WA",
+    "url": "https://www.friendsofspl.org/events"
+  },
+  {
+    "id": "municibid-books",
+    "name": "Municibid books category",
+    "state": "US",
+    "url": "https://municibid.com/browse/c24200839/books"
+  },
+  {
+    "id": "liveauctioneers-books",
+    "name": "LiveAuctioneers book category",
+    "state": "US",
+    "url": "https://www.liveauctioneers.com/c/books/"
+  }
+]

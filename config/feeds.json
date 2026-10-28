@@ -1,0 +1,874 @@
+[
+  {
+    "id": "al-sales",
+    "name": "Alabama: book sales",
+    "state": "AL",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Alabama%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "al-bulk",
+    "name": "Alabama: institutional / bulk",
+    "state": "AL",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Alabama%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ak-sales",
+    "name": "Alaska: book sales",
+    "state": "AK",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Alaska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ak-bulk",
+    "name": "Alaska: institutional / bulk",
+    "state": "AK",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Alaska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "az-sales",
+    "name": "Arizona: book sales",
+    "state": "AZ",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Arizona%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "az-bulk",
+    "name": "Arizona: institutional / bulk",
+    "state": "AZ",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Arizona%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ar-sales",
+    "name": "Arkansas: book sales",
+    "state": "AR",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Arkansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ar-bulk",
+    "name": "Arkansas: institutional / bulk",
+    "state": "AR",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Arkansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ca-sales",
+    "name": "California: book sales",
+    "state": "CA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22California%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ca-bulk",
+    "name": "California: institutional / bulk",
+    "state": "CA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22California%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "co-sales",
+    "name": "Colorado: book sales",
+    "state": "CO",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Colorado%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "co-bulk",
+    "name": "Colorado: institutional / bulk",
+    "state": "CO",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Colorado%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ct-sales",
+    "name": "Connecticut: book sales",
+    "state": "CT",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Connecticut%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ct-bulk",
+    "name": "Connecticut: institutional / bulk",
+    "state": "CT",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Connecticut%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "de-sales",
+    "name": "Delaware: book sales",
+    "state": "DE",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Delaware%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "de-bulk",
+    "name": "Delaware: institutional / bulk",
+    "state": "DE",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Delaware%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "fl-sales",
+    "name": "Florida: book sales",
+    "state": "FL",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Florida%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "fl-bulk",
+    "name": "Florida: institutional / bulk",
+    "state": "FL",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Florida%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ga-sales",
+    "name": "Georgia: book sales",
+    "state": "GA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Georgia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ga-bulk",
+    "name": "Georgia: institutional / bulk",
+    "state": "GA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Georgia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "hi-sales",
+    "name": "Hawaii: book sales",
+    "state": "HI",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Hawaii%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "hi-bulk",
+    "name": "Hawaii: institutional / bulk",
+    "state": "HI",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Hawaii%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "id-sales",
+    "name": "Idaho: book sales",
+    "state": "ID",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Idaho%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "id-bulk",
+    "name": "Idaho: institutional / bulk",
+    "state": "ID",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Idaho%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "il-sales",
+    "name": "Illinois: book sales",
+    "state": "IL",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Illinois%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "il-bulk",
+    "name": "Illinois: institutional / bulk",
+    "state": "IL",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Illinois%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "in-sales",
+    "name": "Indiana: book sales",
+    "state": "IN",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Indiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "in-bulk",
+    "name": "Indiana: institutional / bulk",
+    "state": "IN",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Indiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ia-sales",
+    "name": "Iowa: book sales",
+    "state": "IA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Iowa%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ia-bulk",
+    "name": "Iowa: institutional / bulk",
+    "state": "IA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Iowa%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ks-sales",
+    "name": "Kansas: book sales",
+    "state": "KS",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Kansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ks-bulk",
+    "name": "Kansas: institutional / bulk",
+    "state": "KS",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Kansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ky-sales",
+    "name": "Kentucky: book sales",
+    "state": "KY",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Kentucky%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ky-bulk",
+    "name": "Kentucky: institutional / bulk",
+    "state": "KY",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Kentucky%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "la-sales",
+    "name": "Louisiana: book sales",
+    "state": "LA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Louisiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "la-bulk",
+    "name": "Louisiana: institutional / bulk",
+    "state": "LA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Louisiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "me-sales",
+    "name": "Maine: book sales",
+    "state": "ME",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Maine%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "me-bulk",
+    "name": "Maine: institutional / bulk",
+    "state": "ME",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Maine%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "md-sales",
+    "name": "Maryland: book sales",
+    "state": "MD",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Maryland%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "md-bulk",
+    "name": "Maryland: institutional / bulk",
+    "state": "MD",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Maryland%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ma-sales",
+    "name": "Massachusetts: book sales",
+    "state": "MA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Massachusetts%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ma-bulk",
+    "name": "Massachusetts: institutional / bulk",
+    "state": "MA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Massachusetts%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "mi-sales",
+    "name": "Michigan: book sales",
+    "state": "MI",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Michigan%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "mi-bulk",
+    "name": "Michigan: institutional / bulk",
+    "state": "MI",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Michigan%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "mn-sales",
+    "name": "Minnesota: book sales",
+    "state": "MN",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Minnesota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "mn-bulk",
+    "name": "Minnesota: institutional / bulk",
+    "state": "MN",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Minnesota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ms-sales",
+    "name": "Mississippi: book sales",
+    "state": "MS",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Mississippi%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ms-bulk",
+    "name": "Mississippi: institutional / bulk",
+    "state": "MS",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Mississippi%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "mo-sales",
+    "name": "Missouri: book sales",
+    "state": "MO",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Missouri%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "mo-bulk",
+    "name": "Missouri: institutional / bulk",
+    "state": "MO",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Missouri%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "mt-sales",
+    "name": "Montana: book sales",
+    "state": "MT",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Montana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "mt-bulk",
+    "name": "Montana: institutional / bulk",
+    "state": "MT",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Montana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ne-sales",
+    "name": "Nebraska: book sales",
+    "state": "NE",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Nebraska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ne-bulk",
+    "name": "Nebraska: institutional / bulk",
+    "state": "NE",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Nebraska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "nv-sales",
+    "name": "Nevada: book sales",
+    "state": "NV",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Nevada%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "nv-bulk",
+    "name": "Nevada: institutional / bulk",
+    "state": "NV",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Nevada%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "nh-sales",
+    "name": "New Hampshire: book sales",
+    "state": "NH",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+Hampshire%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "nh-bulk",
+    "name": "New Hampshire: institutional / bulk",
+    "state": "NH",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+Hampshire%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "nj-sales",
+    "name": "New Jersey: book sales",
+    "state": "NJ",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+Jersey%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "nj-bulk",
+    "name": "New Jersey: institutional / bulk",
+    "state": "NJ",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+Jersey%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "nm-sales",
+    "name": "New Mexico: book sales",
+    "state": "NM",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+Mexico%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "nm-bulk",
+    "name": "New Mexico: institutional / bulk",
+    "state": "NM",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+Mexico%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ny-sales",
+    "name": "New York: book sales",
+    "state": "NY",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+York%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ny-bulk",
+    "name": "New York: institutional / bulk",
+    "state": "NY",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+York%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "nc-sales",
+    "name": "North Carolina: book sales",
+    "state": "NC",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22North+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "nc-bulk",
+    "name": "North Carolina: institutional / bulk",
+    "state": "NC",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22North+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "nd-sales",
+    "name": "North Dakota: book sales",
+    "state": "ND",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22North+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "nd-bulk",
+    "name": "North Dakota: institutional / bulk",
+    "state": "ND",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22North+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "oh-sales",
+    "name": "Ohio: book sales",
+    "state": "OH",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Ohio%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "oh-bulk",
+    "name": "Ohio: institutional / bulk",
+    "state": "OH",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Ohio%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ok-sales",
+    "name": "Oklahoma: book sales",
+    "state": "OK",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Oklahoma%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ok-bulk",
+    "name": "Oklahoma: institutional / bulk",
+    "state": "OK",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Oklahoma%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "or-sales",
+    "name": "Oregon: book sales",
+    "state": "OR",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Oregon%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "or-bulk",
+    "name": "Oregon: institutional / bulk",
+    "state": "OR",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Oregon%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "pa-sales",
+    "name": "Pennsylvania: book sales",
+    "state": "PA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Pennsylvania%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "pa-bulk",
+    "name": "Pennsylvania: institutional / bulk",
+    "state": "PA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Pennsylvania%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ri-sales",
+    "name": "Rhode Island: book sales",
+    "state": "RI",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Rhode+Island%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ri-bulk",
+    "name": "Rhode Island: institutional / bulk",
+    "state": "RI",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Rhode+Island%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "sc-sales",
+    "name": "South Carolina: book sales",
+    "state": "SC",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22South+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "sc-bulk",
+    "name": "South Carolina: institutional / bulk",
+    "state": "SC",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22South+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "sd-sales",
+    "name": "South Dakota: book sales",
+    "state": "SD",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22South+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "sd-bulk",
+    "name": "South Dakota: institutional / bulk",
+    "state": "SD",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22South+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "tn-sales",
+    "name": "Tennessee: book sales",
+    "state": "TN",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Tennessee%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "tn-bulk",
+    "name": "Tennessee: institutional / bulk",
+    "state": "TN",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Tennessee%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "tx-sales",
+    "name": "Texas: book sales",
+    "state": "TX",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Texas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "tx-bulk",
+    "name": "Texas: institutional / bulk",
+    "state": "TX",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Texas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "ut-sales",
+    "name": "Utah: book sales",
+    "state": "UT",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Utah%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "ut-bulk",
+    "name": "Utah: institutional / bulk",
+    "state": "UT",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Utah%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "vt-sales",
+    "name": "Vermont: book sales",
+    "state": "VT",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Vermont%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "vt-bulk",
+    "name": "Vermont: institutional / bulk",
+    "state": "VT",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Vermont%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "va-sales",
+    "name": "Virginia: book sales",
+    "state": "VA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "va-bulk",
+    "name": "Virginia: institutional / bulk",
+    "state": "VA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "wa-sales",
+    "name": "Washington: book sales",
+    "state": "WA",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Washington%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "wa-bulk",
+    "name": "Washington: institutional / bulk",
+    "state": "WA",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Washington%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "wv-sales",
+    "name": "West Virginia: book sales",
+    "state": "WV",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22West+Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "wv-bulk",
+    "name": "West Virginia: institutional / bulk",
+    "state": "WV",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22West+Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "wi-sales",
+    "name": "Wisconsin: book sales",
+    "state": "WI",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Wisconsin%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "wi-bulk",
+    "name": "Wisconsin: institutional / bulk",
+    "state": "WI",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Wisconsin%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "wy-sales",
+    "name": "Wyoming: book sales",
+    "state": "WY",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Wyoming%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "wy-bulk",
+    "name": "Wyoming: institutional / bulk",
+    "state": "WY",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Wyoming%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "dc-sales",
+    "name": "District of Columbia: book sales",
+    "state": "DC",
+    "category": "sales",
+    "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22District+of+Columbia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "sales"
+  },
+  {
+    "id": "dc-bulk",
+    "name": "District of Columbia: institutional / bulk",
+    "state": "DC",
+    "category": "bulk",
+    "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22District+of+Columbia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen",
+    "group": "bulk"
+  },
+  {
+    "id": "nation-university",
+    "name": "USA university book surplus",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22university+surplus%22+books+auction+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nation-school",
+    "name": "USA school textbooks liquidation",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22school+district%22+books+surplus+auction+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nation-library",
+    "name": "USA library collection liquidations",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22library+collection%22+surplus+auction+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nation-gaylord",
+    "name": "USA gaylord book pallets",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22gaylord%22+books+auction+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nation-freight",
+    "name": "USA book freight bulk",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22bulk+books%22+%22shipping%22+warehouse+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nation-deaccession",
+    "name": "USA withdrawn books",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22deaccession%22+books+auction+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nation-estate",
+    "name": "USA estate book collections",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22estate+sale%22+%22book+collection%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  },
+  {
+    "id": "nation-textbook",
+    "name": "USA textbook lot surplus",
+    "state": "US",
+    "category": "national",
+    "url": "https://news.google.com/rss/search?q=%22textbook+lot%22+surplus+auction+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+  }
+]

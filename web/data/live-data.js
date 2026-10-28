@@ -1,0 +1,1 @@
+window.BOOKSCOUT_LIVE_DATA={  "schema": 2,  "last_checked": null,  "checks": [],  "leads": [],  "events": [],  "pages": [],  "alerts": [],  "status": "not_started",  "notice": "Automated refresh has not run yet."};

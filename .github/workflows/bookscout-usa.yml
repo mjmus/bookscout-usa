@@ -5,36 +5,76 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths-ignore:
+      - 'web/data/live.json'
+      - 'web/data/live-data.js'
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: bookscout-usa-publish
   cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Validate discovery logic
         run: python -m unittest discover -s tests -p 'test_*.py'
-      - name: Refresh nationwide and institutional sources
+      - name: Refresh nationwide leads and safely save updated report
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ALERT_STATES: ${{ vars.ALERT_STATES }}
-        run: python scripts/national_update.py
-      - name: Save report
         run: |
+          set -euo pipefail
           git config user.name 'bookscout-radar[bot]'
           git config user.email 'bookscout-radar@users.noreply.github.com'
-          git add web/data/live.json web/data/live-data.js
-          if ! git diff --cached --quiet; then
+          # A user/connector push during the crawl must not break the updater.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/national_update.py
+            git add web/data/live.json web/data/live-data.js
+            if git diff --cached --quiet; then
+              echo "No changes to persist."
+              break
+            fi
             git commit -m 'chore: refresh book sourcing radar'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+            if git push origin HEAD:main; then
+              echo "Published refreshed source data."
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Unable to save source data after three retries." >&2
+              exit 1
+            fi
+            echo "Concurrent commit detected; retrying from latest main."
+          done
+      - name: Upload BookScout website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: web
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy BookScout to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

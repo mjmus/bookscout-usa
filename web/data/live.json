@@ -16,6 +16,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Alaska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ak-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Alaska: institutional / bulk",
+      "state": "AK",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Alaska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -27,6 +40,19 @@
       "state": "AL",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Alabama%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "al-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Alabama: institutional / bulk",
+      "state": "AL",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Alabama%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -42,6 +68,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Arkansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ar-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Arkansas: institutional / bulk",
+      "state": "AR",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Arkansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -53,6 +92,19 @@
       "state": "AZ",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Arizona%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "az-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Arizona: institutional / bulk",
+      "state": "AZ",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Arizona%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -68,6 +120,32 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22California%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ca-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "California: institutional / bulk",
+      "state": "CA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22California%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "sf-friends-events",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "San Francisco Friends book-sale events",
+      "state": "CA",
+      "status": "ok",
+      "url": "https://www.friendssfpl.org/events.html"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -79,6 +157,19 @@
       "state": "CO",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Colorado%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "co-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Colorado: institutional / bulk",
+      "state": "CO",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Colorado%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -94,6 +185,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Connecticut%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ct-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Connecticut: institutional / bulk",
+      "state": "CT",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Connecticut%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -107,6 +211,45 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22District+of+Columbia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "dc-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "District of Columbia: institutional / bulk",
+      "state": "DC",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22District+of+Columbia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "de-bookfinder",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "DE BookSaleFinder event listings",
+      "state": "DE",
+      "status": "ok",
+      "url": "https://www.booksalefinder.com/DE.html"
+    },
+    {
+      "category": "page",
+      "detail": "RuntimeError: robots.txt unavailable for www.gss.omb.delaware.gov: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate i",
+      "found": 0,
+      "id": "delaware-auctions",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Delaware surplus auctions",
+      "state": "DE",
+      "status": "error",
+      "url": "https://www.gss.omb.delaware.gov/surplus/auction.shtml"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -118,6 +261,19 @@
       "state": "DE",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Delaware%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "de-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Delaware: institutional / bulk",
+      "state": "DE",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Delaware%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "page",
@@ -146,6 +302,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Florida%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "fl-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Florida: institutional / bulk",
+      "state": "FL",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Florida%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -157,6 +326,19 @@
       "state": "GA",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Georgia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ga-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Georgia: institutional / bulk",
+      "state": "GA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Georgia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -172,6 +354,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Hawaii%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "hi-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Hawaii: institutional / bulk",
+      "state": "HI",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Hawaii%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -183,6 +378,19 @@
       "state": "IA",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Iowa%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ia-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Iowa: institutional / bulk",
+      "state": "IA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Iowa%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -198,6 +406,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Idaho%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "id-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Idaho: institutional / bulk",
+      "state": "ID",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Idaho%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -209,6 +430,19 @@
       "state": "IL",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Illinois%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "il-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Illinois: institutional / bulk",
+      "state": "IL",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Illinois%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -224,6 +458,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Indiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "in-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Indiana: institutional / bulk",
+      "state": "IN",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Indiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -235,6 +482,19 @@
       "state": "KS",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Kansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ks-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Kansas: institutional / bulk",
+      "state": "KS",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Kansas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -250,6 +510,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Kentucky%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ky-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Kentucky: institutional / bulk",
+      "state": "KY",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Kentucky%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -263,6 +536,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Louisiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "la-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Louisiana: institutional / bulk",
+      "state": "LA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Louisiana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -274,6 +560,19 @@
       "state": "MA",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Massachusetts%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ma-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Massachusetts: institutional / bulk",
+      "state": "MA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Massachusetts%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "page",
@@ -315,6 +614,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Maryland%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "md-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Maryland: institutional / bulk",
+      "state": "MD",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Maryland%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -326,6 +638,19 @@
       "state": "ME",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Maine%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "me-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Maine: institutional / bulk",
+      "state": "ME",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Maine%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -341,6 +666,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Michigan%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "mi-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Michigan: institutional / bulk",
+      "state": "MI",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Michigan%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -352,6 +690,19 @@
       "state": "MN",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Minnesota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "mn-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Minnesota: institutional / bulk",
+      "state": "MN",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Minnesota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -367,6 +718,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Missouri%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "mo-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Missouri: institutional / bulk",
+      "state": "MO",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Missouri%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -378,6 +742,19 @@
       "state": "MS",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Mississippi%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ms-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Mississippi: institutional / bulk",
+      "state": "MS",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Mississippi%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -393,6 +770,58 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Montana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "mt-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Montana: institutional / bulk",
+      "state": "MT",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Montana%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "durham-fodl-events",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Durham library Friends event page",
+      "state": "NC",
+      "status": "ok",
+      "url": "https://fodlnc.org/events/"
+    },
+    {
+      "category": "page",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ecu-surplus",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "ECU quarterly university surplus",
+      "state": "NC",
+      "status": "error",
+      "url": "https://purchasing.ecu.edu/surplus/sales/"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "nc-surplus",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "NC State Surplus Property",
+      "state": "NC",
+      "status": "ok",
+      "url": "https://www.doa.nc.gov/divisions/state-surplus-property"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -404,6 +833,19 @@
       "state": "NC",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22North+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "nc-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "North Carolina: institutional / bulk",
+      "state": "NC",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22North+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "page",
@@ -432,6 +874,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22North+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "nd-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "North Dakota: institutional / bulk",
+      "state": "ND",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22North+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -445,6 +900,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Nebraska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ne-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Nebraska: institutional / bulk",
+      "state": "NE",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Nebraska%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -456,6 +924,19 @@
       "state": "NH",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+Hampshire%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "nh-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "New Hampshire: institutional / bulk",
+      "state": "NH",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+Hampshire%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "page",
@@ -484,6 +965,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+Jersey%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "nj-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "New Jersey: institutional / bulk",
+      "state": "NJ",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+Jersey%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -495,6 +989,19 @@
       "state": "NM",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+Mexico%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "nm-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "New Mexico: institutional / bulk",
+      "state": "NM",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+Mexico%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -510,6 +1017,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Nevada%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "nv-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Nevada: institutional / bulk",
+      "state": "NV",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Nevada%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -521,6 +1041,19 @@
       "state": "NY",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22New+York%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ny-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "New York: institutional / bulk",
+      "state": "NY",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22New+York%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -536,6 +1069,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Ohio%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "oh-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Ohio: institutional / bulk",
+      "state": "OH",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Ohio%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -549,6 +1095,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Oklahoma%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ok-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Oklahoma: institutional / bulk",
+      "state": "OK",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Oklahoma%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -560,6 +1119,19 @@
       "state": "OR",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Oregon%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "or-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Oregon: institutional / bulk",
+      "state": "OR",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Oregon%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "page",
@@ -588,6 +1160,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Pennsylvania%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "pa-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Pennsylvania: institutional / bulk",
+      "state": "PA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Pennsylvania%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -599,6 +1184,32 @@
       "state": "RI",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Rhode+Island%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ri-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Rhode Island: institutional / bulk",
+      "state": "RI",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Rhode+Island%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "sc-bookfinder",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "SC BookSaleFinder event listings",
+      "state": "SC",
+      "status": "ok",
+      "url": "https://www.booksalefinder.com/SC.html"
     },
     {
       "category": "sales",
@@ -614,6 +1225,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22South+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "sc-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "South Carolina: institutional / bulk",
+      "state": "SC",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22South+Carolina%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -625,6 +1249,19 @@
       "state": "SD",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22South+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "sd-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "South Dakota: institutional / bulk",
+      "state": "SD",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22South+Dakota%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -640,6 +1277,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Tennessee%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "tn-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Tennessee: institutional / bulk",
+      "state": "TN",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Tennessee%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -653,6 +1303,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Texas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "tx-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Texas: institutional / bulk",
+      "state": "TX",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Texas%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "page",
       "detail": "HTTPError: HTTP Error 403: Forbidden",
       "found": 0,
@@ -664,6 +1327,19 @@
       "state": "US",
       "status": "error",
       "url": "https://wholesale.betterworldbooks.com/pricing/"
+    },
+    {
+      "category": "page",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "bookdepot",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Book Depot bargain inventory",
+      "state": "US",
+      "status": "error",
+      "url": "https://www.bookdepot.com/"
     },
     {
       "category": "page",
@@ -684,7 +1360,7 @@
       "found": 0,
       "id": "nation-freight",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA book freight bulk",
       "state": "US",
@@ -695,9 +1371,22 @@
       "category": "national",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
+      "id": "institution-boxed",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "USA boxed books and media surplus",
+      "state": "US",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=(%22boxed%20books%22%20surplus%20auction%20OR%20%22boxed%20media%22%20liquidation)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "national",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
       "id": "nation-estate",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA estate book collections",
       "state": "US",
@@ -710,7 +1399,7 @@
       "found": 0,
       "id": "nation-gaylord",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA gaylord book pallets",
       "state": "US",
@@ -721,9 +1410,22 @@
       "category": "national",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
+      "id": "institution-lot",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "USA institutional book liquidation",
+      "state": "US",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=(%22university%20books%22%20surplus%20OR%20%22school%20book%20collection%22%20auction)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "national",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
       "id": "nation-library",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA library collection liquidations",
       "state": "US",
@@ -734,9 +1436,48 @@
       "category": "national",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
+      "id": "institution-contents",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "USA library contents and cleanouts",
+      "state": "US",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=(%22library%20contents%22%20auction%20OR%20%22institutional%20cleanout%22%20books)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "national",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "institution-deaccession",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "USA library deaccession / withdrawn collections",
+      "state": "US",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=(%22deaccession%22%20books%20auction%20OR%20%22withdrawn%20library%20books%22%20sale)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "national",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "institution-curriculum",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "USA obsolete school curriculum and textbooks",
+      "state": "US",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=(%22obsolete%20curriculum%22%20auction%20OR%20%22surplus%20textbooks%22%20school)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "national",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
       "id": "nation-school",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA school textbooks liquidation",
       "state": "US",
@@ -749,7 +1490,7 @@
       "found": 0,
       "id": "nation-textbook",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA textbook lot surplus",
       "state": "US",
@@ -762,7 +1503,7 @@
       "found": 0,
       "id": "nation-university",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA university book surplus",
       "state": "US",
@@ -773,9 +1514,22 @@
       "category": "national",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
+      "id": "institution-weeded",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "USA weeded collections and materials",
+      "state": "US",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=(%22weeded%20library%22%20books%20OR%20%22weeded%20collection%22%20sale)%20when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "national",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
       "id": "nation-deaccession",
       "kind": "feed",
-      "last_attempt": "2026-10-28T22:01:31Z",
+      "last_attempt": "2026-10-28T22:03:03Z",
       "last_success": null,
       "name": "USA withdrawn books",
       "state": "US",
@@ -796,6 +1550,32 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Utah%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "ut-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Utah: institutional / bulk",
+      "state": "UT",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Utah%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "chesterfield-friends",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Chesterfield Friends of the Library",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://www.chesterfieldfriends.org/"
+    },
+    {
       "category": "page",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -807,6 +1587,58 @@
       "state": "VA",
       "status": "error",
       "url": "https://rvalibraryfriends.org/"
+    },
+    {
+      "category": "page",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "goodwill-outlets-va",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Goodwill VA outlet directory",
+      "state": "VA",
+      "status": "error",
+      "url": "https://goodwillvirginia.org/shop/outlets/"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "newport-schools",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Newport News Public Schools Auctions",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://m.publicsurplus.com/sms/nn%2Cva/browse/home"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "portsmouth-friends",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Portsmouth Library Friends sales",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://www.friendsofportsmouthlibrary.org/booksales"
+    },
+    {
+      "category": "page",
+      "detail": "",
+      "found": 0,
+      "id": "radford-surplus",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Radford University Surplus",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://www.radford.edu/facilities-maintenance/surplus/surplus-procedure.html"
     },
     {
       "category": "page",
@@ -836,6 +1668,19 @@
     },
     {
       "category": "page",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "vbschools-surplus",
+      "kind": "page",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Virginia Beach school district auctions",
+      "state": "VA",
+      "status": "error",
+      "url": "https://www.vbschools.com/budget/procurement/gently-used-school-items"
+    },
+    {
+      "category": "page",
       "detail": "HTTPError: HTTP Error 404: Not Found",
       "found": 0,
       "id": "virginia-surplus",
@@ -859,6 +1704,19 @@
       "state": "VA",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "va-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Virginia: institutional / bulk",
+      "state": "VA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "page",
@@ -887,6 +1745,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Vermont%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "vt-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Vermont: institutional / bulk",
+      "state": "VT",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Vermont%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -898,6 +1769,19 @@
       "state": "WA",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Washington%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "wa-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Washington: institutional / bulk",
+      "state": "WA",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Washington%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "category": "sales",
@@ -913,6 +1797,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Wisconsin%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "wi-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Wisconsin: institutional / bulk",
+      "state": "WI",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Wisconsin%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -926,6 +1823,19 @@
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22West+Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "wv-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "West Virginia: institutional / bulk",
+      "state": "WV",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22West+Virginia%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
       "category": "sales",
       "detail": "PermissionError: robots.txt disallows this path",
       "found": 0,
@@ -937,16 +1847,29 @@
       "state": "WY",
       "status": "error",
       "url": "https://news.google.com/rss/search?q=%28%22library+book+sale%22+OR+%22friends+of+the+library+sale%22+OR+%22used+book+sale%22+OR+%22book+warehouse+sale%22%29+%22Wyoming%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
+    },
+    {
+      "category": "bulk",
+      "detail": "PermissionError: robots.txt disallows this path",
+      "found": 0,
+      "id": "wy-bulk",
+      "kind": "feed",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_success": null,
+      "name": "Wyoming: institutional / bulk",
+      "state": "WY",
+      "status": "error",
+      "url": "https://news.google.com/rss/search?q=%28%22library+surplus%22+OR+%22book+lot%22+OR+%22books+auction%22+OR+%22school+book+liquidation%22+OR+%22gaylord+books%22%29+%22Wyoming%22+when%3A14d&hl=en-US&gl=US&ceid=US%3Aen"
     }
   ],
   "events": [],
-  "last_checked": "2026-10-28T22:01:31Z",
+  "last_checked": "2026-10-28T22:03:03Z",
   "leads": [],
   "monitoring": {
-    "checked_this_run": 72,
-    "feeds_total": 110,
+    "checked_this_run": 79,
+    "feeds_total": 116,
     "hourly": true,
-    "pages_total": 49
+    "pages_total": 56
   },
   "notice": "RSS headlines are unverified. State on RSS leads indicates query scope, not verified physical location. Official page changes do not prove new listings. No Amazon or eBay sold-rank data without supplied evidence or licensed API.",
   "notification_status": "not_configured",
@@ -981,6 +1904,19 @@
       "changed": false,
       "detail": "PermissionError: robots.txt disallows this path",
       "fingerprint": null,
+      "id": "bookdepot",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": null,
+      "name": "Book Depot bargain inventory",
+      "state": "US",
+      "status": "error",
+      "url": "https://www.bookdepot.com/"
+    },
+    {
+      "changed": false,
+      "detail": "PermissionError: robots.txt disallows this path",
+      "fingerprint": null,
       "id": "big-annapolis",
       "last_attempt": "2026-10-28T22:01:31Z",
       "last_change": null,
@@ -989,6 +1925,71 @@
       "state": "MD",
       "status": "error",
       "url": "https://big-books.org/"
+    },
+    {
+      "changed": false,
+      "detail": "",
+      "fingerprint": "412e1761577aa32483e6ad87d2da1a491662aaabbf29d31922fe713f5c6f4284",
+      "id": "chesterfield-friends",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Chesterfield Friends of the Library",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://www.chesterfieldfriends.org/"
+    },
+    {
+      "changed": false,
+      "detail": "",
+      "fingerprint": "d2e043d2ae1f481ec47f88fd1359b8f57947ca35b05a9962c60d8522b5449ce9",
+      "id": "de-bookfinder",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "DE BookSaleFinder event listings",
+      "state": "DE",
+      "status": "ok",
+      "url": "https://www.booksalefinder.com/DE.html"
+    },
+    {
+      "changed": false,
+      "detail": "RuntimeError: robots.txt unavailable for www.gss.omb.delaware.gov: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate i",
+      "fingerprint": null,
+      "id": "delaware-auctions",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": null,
+      "name": "Delaware surplus auctions",
+      "state": "DE",
+      "status": "error",
+      "url": "https://www.gss.omb.delaware.gov/surplus/auction.shtml"
+    },
+    {
+      "changed": false,
+      "detail": "",
+      "fingerprint": "cceb7bc172fe9ca7c1f23e6555aa7e51bd68c9229e865cd42e940e2ba3f244bd",
+      "id": "durham-fodl-events",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Durham library Friends event page",
+      "state": "NC",
+      "status": "ok",
+      "url": "https://fodlnc.org/events/"
+    },
+    {
+      "changed": false,
+      "detail": "PermissionError: robots.txt disallows this path",
+      "fingerprint": null,
+      "id": "ecu-surplus",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": null,
+      "name": "ECU quarterly university surplus",
+      "state": "NC",
+      "status": "error",
+      "url": "https://purchasing.ecu.edu/surplus/sales/"
     },
     {
       "changed": false,
@@ -1002,6 +2003,19 @@
       "state": "VA",
       "status": "error",
       "url": "https://rvalibraryfriends.org/"
+    },
+    {
+      "changed": false,
+      "detail": "PermissionError: robots.txt disallows this path",
+      "fingerprint": null,
+      "id": "goodwill-outlets-va",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": null,
+      "name": "Goodwill VA outlet directory",
+      "state": "VA",
+      "status": "error",
+      "url": "https://goodwillvirginia.org/shop/outlets/"
     },
     {
       "changed": false,
@@ -1045,6 +2059,19 @@
     {
       "changed": false,
       "detail": "",
+      "fingerprint": "8375736520e4a8eb891c0bad93249b5ca05dc0a45601721cb591c7e0a7290dbd",
+      "id": "nc-surplus",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "NC State Surplus Property",
+      "state": "NC",
+      "status": "ok",
+      "url": "https://www.doa.nc.gov/divisions/state-surplus-property"
+    },
+    {
+      "changed": false,
+      "detail": "",
       "fingerprint": "4ac81ed173e517d88d6c293edce63516587b799e5bff6349409e5734ecc71a7c",
       "id": "nj-bookfinder",
       "last_attempt": "2026-10-28T22:01:31Z",
@@ -1058,6 +2085,45 @@
     {
       "changed": false,
       "detail": "",
+      "fingerprint": "a05435c8fe838a7f1f6705fafdd6abb02cb6b93ad881a7279fc75c5f684c0807",
+      "id": "newport-schools",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Newport News Public Schools Auctions",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://m.publicsurplus.com/sms/nn%2Cva/browse/home"
+    },
+    {
+      "changed": false,
+      "detail": "",
+      "fingerprint": "96b7d6bcb3e8648ac37c04fd5aead1a1090f2992dc788fea8eba060c666039b9",
+      "id": "portsmouth-friends",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Portsmouth Library Friends sales",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://www.friendsofportsmouthlibrary.org/booksales"
+    },
+    {
+      "changed": false,
+      "detail": "",
+      "fingerprint": "97406484561cc9417d0f5d236d855deb97ee3a29aa793906efd70d2141577960",
+      "id": "radford-surplus",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "Radford University Surplus",
+      "state": "VA",
+      "status": "ok",
+      "url": "https://www.radford.edu/facilities-maintenance/surplus/surplus-procedure.html"
+    },
+    {
+      "changed": false,
+      "detail": "",
       "fingerprint": "6694294038d60a148f87755dae9e54f017a407e5791ebc7ad07995b76666bb4c",
       "id": "roanoke",
       "last_attempt": "2026-10-28T22:01:31Z",
@@ -1067,6 +2133,32 @@
       "state": "VA",
       "status": "ok",
       "url": "https://roanokecountyva.gov/2576/Become-a-Friend-of-the-Library"
+    },
+    {
+      "changed": false,
+      "detail": "",
+      "fingerprint": "024b13e895013b710e8f7574a137fd9e87055d64159a0ebf35557bb59443bb7c",
+      "id": "sc-bookfinder",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "SC BookSaleFinder event listings",
+      "state": "SC",
+      "status": "ok",
+      "url": "https://www.booksalefinder.com/SC.html"
+    },
+    {
+      "changed": false,
+      "detail": "",
+      "fingerprint": "37a2b23a69fd306ffbbef3fd74aac46fb66457a47be87d843a11f64ecc708381",
+      "id": "sf-friends-events",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": "2026-10-28T22:03:03Z",
+      "name": "San Francisco Friends book-sale events",
+      "state": "CA",
+      "status": "ok",
+      "url": "https://www.friendssfpl.org/events.html"
     },
     {
       "changed": false,
@@ -1096,6 +2188,19 @@
     },
     {
       "changed": false,
+      "detail": "PermissionError: robots.txt disallows this path",
+      "fingerprint": null,
+      "id": "vbschools-surplus",
+      "last_attempt": "2026-10-28T22:03:03Z",
+      "last_change": null,
+      "last_success": null,
+      "name": "Virginia Beach school district auctions",
+      "state": "VA",
+      "status": "error",
+      "url": "https://www.vbschools.com/budget/procurement/gently-used-school-items"
+    },
+    {
+      "changed": false,
       "detail": "HTTPError: HTTP Error 404: Not Found",
       "fingerprint": null,
       "id": "virginia-surplus",
@@ -1121,7 +2226,7 @@
       "url": "https://www.wrl.org/174/Book-Sales-Material-Donations"
     }
   ],
-  "run_count": 1,
+  "run_count": 2,
   "schema": 2,
   "status": "partial"
 }

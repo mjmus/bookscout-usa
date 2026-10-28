@@ -13,6 +13,7 @@ import re
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
+from urllib.parse import urljoin, urlparse, urldefrag
 from urllib.request import urlopen, Request
 from monitor_core import (get,utcnow,readjson,savejson,parsed_feed,normalize_lead,
                           page_fingerprint,notify_discord,clean)
@@ -81,10 +82,69 @@ def checked_feed(src,when,fetch):
     except Exception as e:
         return dict(kind='feed',source=src,ok=False,error=f'{type(e).__name__}: {str(e)[:160]}')
 
+
+# Extract first-party book-sale/surplus *links*, not undocumented sale dates.
+# A link is a discovery candidate; the owner must verify what inventory exists.
+LINK_TOPIC = re.compile(
+    r'\\b(?:book\\s*(?:sales?|fairs?|shops?|stores?|auctions?|lots?|liquidations?)|'
+    r'booksale|used\\s*books?|friends\\s+of\\s+the\\s+library|'
+    r'library\\s+(?:sales?|surplus|withdrawals?|deaccessions?)|'
+    r'(?:school|university|government|public)\\s+surplus|'
+    r'surplus\\s+(?:sales?|auctions?|books?)|'
+    r'(?:deaccessioned|withdrawn|weeded|obsolete)\\s+(?:books?|collections?|materials?|curriculum)|'
+    r'gaylords?|pallets?\\s+of\\s+books?)\\b',re.I)
+BAD_LINK = re.compile(r'\\.(?:jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|woff|ico)(?:$|[?#])', re.I)
+OLD_YEAR = re.compile(r'\\b(?:201[0-9]|202[0-5])\\b')
+
+class SourceLinkParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.active = None
+        self.found = []
+        self.skip = 0
+    def handle_starttag(self, tag, attrs):
+        if tag in ('script','style','noscript','template'):
+            self.skip += 1
+        if tag == 'a' and not self.skip:
+            attrs = dict(attrs)
+            href = attrs.get('href') or ''
+            if href:
+                self.active = {'href':href, 'text':[], 'title':attrs.get('title','')}
+    def handle_data(self, data):
+        if self.active is not None and not self.skip:
+            self.active['text'].append(data)
+    def handle_endtag(self, tag):
+        if tag == 'a' and self.active is not None:
+            self.active['text'] = clean(' '.join(self.active['text']),220)
+            self.found.append(self.active)
+            self.active = None
+        if tag in ('script','style','noscript','template') and self.skip:
+            self.skip -= 1
+
+def parse_official_links(raw, source, when):
+    parser=SourceLinkParser()
+    parser.feed(raw.decode('utf8','replace'))
+    host=urlparse(source['url']).hostname or ''
+    found={}
+    for item in parser.found:
+        target=urldefrag(urljoin(source['url'],item['href']))[0]
+        parsed=urlparse(target)
+        if parsed.scheme!='https' or parsed.hostname!=host or BAD_LINK.search(target):continue
+        name=(item['text'] or item['title']).strip()
+        # No generic unlabeled navigation; no links explicitly advertising past years.
+        if not name or len(name)<6 or OLD_YEAR.search(name):continue
+        if not LINK_TOPIC.search(name+' '+parsed.path.replace('-',' ')):continue
+        target=target.rstrip('/')
+        if target.rstrip('/')==source['url'].rstrip('/'):continue
+        key='org_'+hashlib.sha256((source['id']+'|'+target).encode()).hexdigest()[:19]
+        found[key]=dict(id=key,title=name[:180],summary='A relevant link appeared on the monitored official site. Dates, quantity, condition and availability have not been verified.',url=target,source_id=source['id'],source_name=source['name'],state=source['state'],published_at=None,first_seen=when,last_seen=when,origin='official monitored page link',verification='Official website link, not a confirmed dated sale or active inventory.')
+        if len(found)>=35: break
+    return list(found.values())
+
 def checked_page(src,when,fetch):
     try:
         raw=fetch(src['url']);digest=page_fingerprint(raw)
-        return dict(kind='page',source=src,hash=digest,events=parse_events_from_jsonld(raw,src,when),ok=True)
+        return dict(kind='page',source=src,hash=digest,events=parse_events_from_jsonld(raw,src,when),leads=parse_official_links(raw,src,when),ok=True)
     except Exception as e:
         return dict(kind='page',source=src,ok=False,error=f'{type(e).__name__}: {str(e)[:160]}')
 
@@ -94,12 +154,15 @@ def finish_report(previous,selected,results,when,seed=SEED):
     oldevents={x['id']:x for x in previous.get('events',[]) if 'id' in x}
     oldpages={x['id']:x for x in previous.get('pages',[]) if 'id' in x}
     oldchecks={x['id']:x for x in previous.get('checks',[]) if 'id' in x}
+    configured={s['id'] for s in readjson(FEEDS,[])+readjson(PAGES,[])}
+    oldchecks={k:v for k,v in oldchecks.items() if k in configured}
+    oldpages={k:v for k,v in oldpages.items() if k in configured}
     had_before=bool(previous.get('last_checked'))
     newleads=[];changed=[];newevents=[];checks=oldchecks.copy();pages=oldpages.copy();items=oldleads.copy();events=oldevents.copy()
     for result in results:
         src=result['source'];id=src['id'];ok=result['ok'];kind=result['kind']
         prior=oldchecks.get(id,{})
-        ch=dict(id=id,name=src['name'],state=src['state'],category=src.get('category',kind),kind=kind,url=src['url'],status='ok' if ok else 'error',last_attempt=when,last_success=when if ok else prior.get('last_success'),detail=result.get('error',''),found=len(result.get('leads',result.get('events',[]))))
+        ch=dict(id=id,name=src['name'],state=src['state'],category=src.get('category',kind),kind=kind,url=src['url'],status='ok' if ok else 'error',last_attempt=when,last_success=when if ok else prior.get('last_success'),detail=result.get('error',''),found=len(result.get('leads',[])) + len(result.get('events',[])))
         checks[id]=ch
         if kind=='feed' and ok:
             for x in result['leads']:
@@ -108,8 +171,16 @@ def finish_report(previous,selected,results,when,seed=SEED):
                 items[x['id']]=x
         if kind=='page':
             prev=oldpages.get(id,{})
+            # Never classify the first extraction of existing page links as a newly posted sale.
+            prior_links=set(prev.get('link_ids',[]))
+            for lead in result.get('leads',[]) if ok else []:
+                if lead['id'] in items:
+                    lead['first_seen']=items[lead['id']].get('first_seen',when)
+                elif had_before and 'link_ids' in prev and lead['id'] not in prior_links:
+                    newleads.append(lead)
+                items[lead['id']]=lead
             changed_content=bool(ok and prev.get('fingerprint') and prev['fingerprint']!=result['hash'])
-            pages[id]=dict(**src,fingerprint=result.get('hash',prev.get('fingerprint')),status=ch['status'],changed=changed_content,last_attempt=when,last_success=ch['last_success'],last_change=when if changed_content else prev.get('last_change'),detail=ch['detail'])
+            pages[id]=dict(**src,fingerprint=result.get('hash',prev.get('fingerprint')),status=ch['status'],changed=changed_content,last_attempt=when,last_success=ch['last_success'],last_change=when if changed_content else prev.get('last_change'),link_ids=sorted(x['id'] for x in result.get('leads',[])) if ok else prev.get('link_ids',[]),detail=ch['detail'])
             if changed_content:changed.append(pages[id])
             if ok:
                 for ev in result['events']:
@@ -123,7 +194,7 @@ def finish_report(previous,selected,results,when,seed=SEED):
     alerts=[]
     if had_before:
         for x in newleads:
-            alerts.append(dict(id='new:'+x['id'],type='new',title=x['title'],url=x['url'],state=x.get('state'),at=when,detail='Unverified discovery lead'))
+            alerts.append(dict(id='new:'+x['id'],type='new',title=x['title'],url=x['url'],state=x.get('state'),at=when,detail='Official-page link or other unverified discovery lead'))
         for x in newevents:
             alerts.append(dict(id='event:'+x['id'],type='event',title=x['title'],url=x['url'],state=x.get('state'),at=when,detail='Structured event; check organizer'))
         for p in changed:
@@ -151,7 +222,7 @@ def finish_report(previous,selected,results,when,seed=SEED):
             with urlopen(req,timeout=12) as resp:notify_status='sent' if 200<=resp.status<300 else 'HTTP '+str(resp.status)
         except Exception as e:notify_status='error:'+type(e).__name__
         if notify_status=='sent':alerts_sent.update(x['id'] for x in notify)
-    report=dict(schema=2,run_count=runs,last_checked=when,status='partial' if any(not x['ok'] for x in results) else 'ok',checks=sorted(checks.values(),key=lambda x:(x['state'],x['name'])),pages=sorted(pages.values(),key=lambda x:x['name']),leads=sorted(items.values(),key=lambda x:x['first_seen'],reverse=True)[:1500],events=sorted(events.values(),key=lambda x:x['start'])[:2000],alerts=(distinct+previous.get('alerts',[]))[:500],alerts_sent=sorted(alerts_sent)[-1000:],notification_status=notify_status,monitoring=dict(feeds_total=len(readjson(FEEDS,[])),pages_total=len(readjson(PAGES,[])),checked_this_run=len(results),hourly=True),notice='RSS headlines are unverified. State on RSS leads indicates query scope, not verified physical location. Official page changes do not prove new listings. No Amazon or eBay sold-rank data without supplied evidence or licensed API.')
+    report=dict(schema=2,run_count=runs,last_checked=when,status='partial' if any(not x['ok'] for x in results) else 'ok',checks=sorted(checks.values(),key=lambda x:(x['state'],x['name'])),pages=sorted(pages.values(),key=lambda x:x['name']),leads=sorted(items.values(),key=lambda x:x['first_seen'],reverse=True)[:1500],events=sorted(events.values(),key=lambda x:x['start'])[:2000],alerts=(distinct+previous.get('alerts',[]))[:500],alerts_sent=sorted(alerts_sent)[-1000:],notification_status=notify_status,monitoring=dict(feeds_total=len(readjson(FEEDS,[])),pages_total=len(readjson(PAGES,[])),checked_this_run=len(results),hourly=True),notice='Official site links are discovery leads, NOT verified available lots or dated sales. Page changes are not proof of new inventory. Failed checks remain visible. No automated Amazon or eBay price/rank claims.')
     return report
 
 def run(fetch=get,previous=None,now=None,feeds=None,pages=None,max_workers=4):
@@ -161,10 +232,9 @@ def run(fetch=get,previous=None,now=None,feeds=None,pages=None,max_workers=4):
     # each topic per state every two hours. Page checks rotate over four runs.
     run_no=int(previous.get('run_count',0));chosen=[]
     for src in feeds:
-        if src.get('category')=='national' or ((src.get('category')=='sales') == (run_no%2==0)):
-            chosen.append(('feed',src))
-    for j,src in enumerate(pages):
-        if j%4==run_no%4:chosen.append(('page',src))
+        chosen.append(('feed',src))
+    for src in pages:
+        chosen.append(('page',src))
     def task(v):
         kind,src=v
         return checked_feed(src,when,fetch) if kind=='feed' else checked_page(src,when,fetch)

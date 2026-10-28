@@ -86,15 +86,15 @@ def checked_feed(src,when,fetch):
 # Extract first-party book-sale/surplus *links*, not undocumented sale dates.
 # A link is a discovery candidate; the owner must verify what inventory exists.
 LINK_TOPIC = re.compile(
-    r'\\b(?:book\\s*(?:sales?|fairs?|shops?|stores?|auctions?|lots?|liquidations?)|'
-    r'booksale|used\\s*books?|friends\\s+of\\s+the\\s+library|'
-    r'library\\s+(?:sales?|surplus|withdrawals?|deaccessions?)|'
-    r'(?:school|university|government|public)\\s+surplus|'
-    r'surplus\\s+(?:sales?|auctions?|books?)|'
-    r'(?:deaccessioned|withdrawn|weeded|obsolete)\\s+(?:books?|collections?|materials?|curriculum)|'
-    r'gaylords?|pallets?\\s+of\\s+books?)\\b',re.I)
-BAD_LINK = re.compile(r'\\.(?:jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|woff|ico)(?:$|[?#])', re.I)
-OLD_YEAR = re.compile(r'\\b(?:201[0-9]|202[0-5])\\b')
+    r'\b(?:book\s*(?:sales?|fairs?|shops?|stores?|auctions?|lots?|liquidations?)|'
+    r'booksale|used\s*books?|friends\s+of\s+the\s+library|'
+    r'library\s+(?:sales?|surplus|withdrawals?|deaccessions?)|'
+    r'(?:school|university|government|public)\s+surplus|'
+    r'surplus\s+(?:sales?|auctions?|books?)|'
+    r'(?:deaccessioned|withdrawn|weeded|obsolete)\s+(?:books?|collections?|materials?|curriculum)|'
+    r'gaylords?|pallets?\s+of\s+books?)\b',re.I)
+BAD_LINK = re.compile(r'\.(?:jpg|jpeg|png|gif|svg|webp|pdf|zip|mp4|woff|ico)(?:$|[?#])', re.I)
+OLD_YEAR = re.compile(r'\b(?:201[0-9]|202[0-5])\b')
 
 class SourceLinkParser(HTMLParser):
     def __init__(self):

@@ -334,5 +334,77 @@
     "name": "West Virginia State Surplus",
     "state": "WV",
     "url": "https://www.state.wv.us/admin/purchase/Surplus/SurplusPropertyFAQs.html"
+  },
+  {
+    "id": "ny-saratoga-sales",
+    "name": "Saratoga Springs Friends upcoming book sales",
+    "state": "NY",
+    "url": "https://friends.sspl.org/events/"
+  },
+  {
+    "id": "tn-williamson-sales",
+    "name": "Williamson County Library sales",
+    "state": "TN",
+    "url": "https://wcpltn.org/393/2026-Book-Sales"
+  },
+  {
+    "id": "il-champaign-friends",
+    "name": "Champaign Friends bookshop",
+    "state": "IL",
+    "url": "https://champaign.org/event/friendshop-bookstore-open-16785237"
+  },
+  {
+    "id": "ia-state-surplus",
+    "name": "Iowa State University surplus book inventory",
+    "state": "IA",
+    "url": "https://surplus.iastate.edu/inventory"
+  },
+  {
+    "id": "ca-la-fairfax",
+    "name": "Los Angeles Friends of Fairfax Branch book sales",
+    "state": "CA",
+    "url": "https://www.lapl.org/events/friends-fairfax-branch-library-book-sale"
+  },
+  {
+    "id": "ca-la-memorial",
+    "name": "Los Angeles Friends of Memorial Branch book sales",
+    "state": "CA",
+    "url": "https://www.lapl.org/events/friends-memorial-branch-library-book-sale"
+  },
+  {
+    "id": "fl-jacksonville",
+    "name": "Friends of Jacksonville Library bookstore and sales",
+    "state": "FL",
+    "url": "https://www.fjpl.org/all-about-books"
+  },
+  {
+    "id": "va-arlington-sales",
+    "name": "Arlington Friends book sale event",
+    "state": "VA",
+    "url": "https://arlingtonlibraryfriends.org/event/fall-book-sale-public-2/"
+  },
+  {
+    "id": "oh-kent-books",
+    "name": "Kent Free Library Friends book sale",
+    "state": "OH",
+    "url": "https://kentfree-oh.whofi.com/calendar/event/326016"
+  },
+  {
+    "id": "va-alexandria-friends",
+    "name": "Alexandria Library Friends sale event",
+    "state": "VA",
+    "url": "https://www.alexlibraryva.org/event/17446365"
+  },
+  {
+    "id": "vt-brooks-book-sale",
+    "name": "Friends of Brooks Library book sale",
+    "state": "VT",
+    "url": "https://www.brooksfol.org/the-book-sale"
+  },
+  {
+    "id": "fl-beaches-library",
+    "name": "Friends of Beaches Branch used book sales",
+    "state": "FL",
+    "url": "https://fobbljax.org/2026/09/25/find-your-next-great-read-at-the-beaches-branch-library-fall-2026-book-sale/"
   }
 ]
